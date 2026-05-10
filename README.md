@@ -36,7 +36,7 @@ const abhi = {
     name: "Abhi",
     location: "India 🇮🇳",
     role: "Student & Developer",
-    code: ["Python", "Java", "C", "JavaScript"],
+    code: ["Python", "Java", "Go", "JavaScript"],
     learning: ["React", "Node.js", "MySQL"],
     hobbies: ["Coding", "Gaming", "Music 🎧"],
     motto: "Code. Learn. Build. Repeat."
@@ -215,7 +215,7 @@ const abhi = {
   <a href="https://www.youtube.com/@YOUR_YT">
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="youtube" />
   </a>
-  <a href="mailto:YOUR_EMAIL@gmail.com">
+  <a href="mailto:at411413@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="gmail" />
   </a>
   <a href="https://discord.com/users/YOUR_ID">
