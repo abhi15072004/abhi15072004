@@ -7,7 +7,7 @@
   <a href="mailto:at1411413@gmail.com"><img src="https://img.shields.io/badge/Email-at1411413@gmail.com-FFB547?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0A0F1C" alt="Email"></a>
 </p>
 
-Full stack developer (**Go · Flutter · Next.js · Node.js**) and final-year B.Tech AI & Data Science student in Chennai. I find my own clients and ship their products end to end — **four are live in production right now.** Open to full-time Software Engineer / Full Stack / Backend / Flutter roles.
+Software engineer (**Data & Backend — SQL · PostgreSQL · Go · Python · Flutter**) and final-year B.Tech AI & Data Science student in Chennai. I find my own clients and ship their products end to end — relational schemas, data sync pipelines, SQL reporting and cloud deployment — with **products live in production for clients in India and the USA.** Open to full-time Data / Analytics / Backend Engineer roles.
 
 <a href="https://abhi15072004.github.io"><img src="assets/status.svg" width="100%" alt="Deployment status board"></a>
 
@@ -38,7 +38,23 @@ Full stack developer (**Go · Flutter · Next.js · Node.js**) and final-year B.
       <br><sub>HTML · CSS · JavaScript · Vercel</sub>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <br><b><a href="https://govindascafelasvegas.com/">ServeOne — Govinda's Cafe, Las Vegas</a></b> 🇺🇸 — pickup ordering + admin for a US cafe: Square payments with webhook signature checks, idempotency keys and a 5-minute reconciliation job; WebSocket order updates for staff, sales reports with CSV export.
+      <br><sub>Go · SQLite/PostgreSQL · SolidJS · Square</sub>
+    </td>
+    <td width="50%" valign="top">
+      <br><b><a href="https://mnmjecaids.duckdns.org/">MNMJEC AI&DS Records Portal</a></b> — in daily use by my college department: teacher web + student Flutter app over a Go REST API and a PostgreSQL schema built across 33 migrations; dry-run Excel import with all-or-nothing commit and undo by batch, CI on a real Postgres with health-checked deploys.
+      <br><sub>Go · PostgreSQL · Flutter · Docker · GitHub Actions</sub>
+    </td>
+  </tr>
 </table>
+
+### 🗄️ Data & SQL
+
+- **Offline-to-cloud sync pipeline** (RidgePoS) — each till's SQLite journal syncs to a Go cloud service in idempotent batches keyed by (device, sequence) with a per-device watermark: no sale lost or duplicated.
+- **SQL reporting** — 40+ SQL reports (joins, aggregations, CTEs): daily sales, tax, P&L, menu engineering, payment reconciliation, end-of-day Z-report, with CSV export.
+- **Data integrity** — validated bulk imports (transactional dry run, per-row error report, undo by batch), schema migrations, payment reconciliation jobs.
 
 > Most of this is client work, so the source lives in private repositories. Happy to walk through the code in an interview.
 
